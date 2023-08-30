@@ -15,7 +15,7 @@ class DateUtility:
 
 
     def sub_dt(self,from_date:datetime, number_of_days:datetime) -> datetime :
-        return from_date - timedelta(days=10)
+        return from_date - timedelta(days=number_of_days)
 
 
     def get_days(self,from_date:datetime, to_date:datetime) -> int:
